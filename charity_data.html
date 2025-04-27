@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HelpHub - Charity Data</title>
+  <link rel="stylesheet" href="customstyles.css">
+</head>
+<body>
+  <header>
+    <h1>HelpHub</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="charities.html">Charities</a></li>
+        <li><a href="charities_profile.html">Charity Profile</a></li>
+        <li><a href="charity_data.html">Charity Data</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Latest Charities</h2>
+    <ul id="charityList">
+      <li>Loading charities...</li>
+    </ul>
+    <p id="errorMessage" style="color: red; display: none;">Could not load charities. Please try again later.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HelpHub</p>
+  </footer>
+
+  <script src="charity_data.js"></script>
+</body>
+</html>
